@@ -30,12 +30,12 @@ function DeleteButton() {
   const [modalOpen, setModalOpen] = useState(false);
 
   const handleDelete = () => {
-    onDelete(); // 삭제 함수 호출
-    setModalOpen(false); // 모달 닫기
+    onDelete(); // 삭제 함수 생성해서 여기에 추가해주시면 됩니다 to 진성, 경화
+    setModalOpen(false);
   };
 
   const handleCancel = () => {
-    setModalOpen(false); // 모달 닫기
+    setModalOpen(false);
   };
 
   return (

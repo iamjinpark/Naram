@@ -29,7 +29,7 @@ function BoardTable({ to }: BoardTableProps): React.ReactNode {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { data } = await axios.get<List[]>('https://jsonplaceholder.typicode.com/posts/');
+        const { data } = await axios.get<List[]>('https://jsonplaceholder.typicode.com/posts/'); //API주소만 바꿔주시면 됩니다 to 진성, 경화
         setData(data);
       } catch (e) {
         console.error('Error fetching data:', Error);

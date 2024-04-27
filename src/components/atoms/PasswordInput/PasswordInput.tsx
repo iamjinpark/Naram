@@ -1,4 +1,4 @@
-import useInputValidation from '@/Hook/useInputValidation';
+import useInputValidation from '@/hook/useInputValidation';
 import { StyledPasswordInputWrapper, StyledValidationText } from '@/styles/components/Editor/Editor';
 import React from 'react';
 

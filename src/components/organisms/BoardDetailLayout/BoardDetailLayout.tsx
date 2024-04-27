@@ -1,4 +1,4 @@
-import DetailContent from '@/components/moleclues/BoardDetail/DetailContent';
+import DetailContent from '@/components/moleclues/BoardDetail/DetailTitle';
 import DetailButtonWrapper from '@/components/moleclues/DetailButtonWrapper/DetailButtonWrapper';
 import { StyledBoardDetailLayout } from '@/styles/components/Board/BoardDetail';
 

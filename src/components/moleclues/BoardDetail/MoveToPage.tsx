@@ -1,12 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import {
-  StyledMoveToPageWrapper,
-  StyledMoveTopageIcon,
-  StyledTest,
-  StyledTestWrapper,
-} from '@/styles/components/Board/BoardDetail';
+import { useParams } from 'react-router-dom';
+import { StyledTest, StyledTestWrapper } from '@/styles/components/Board/BoardDetail';
 
 type MoveToPageProps = {
   id: string;
